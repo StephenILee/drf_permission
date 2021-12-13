@@ -9,6 +9,7 @@ from user.permissions import IsOwner
 from django.shortcuts import get_object_or_404
 from rest_framework.viewsets import ModelViewSet
 
+
 # fbv
 @api_view(['GET'])
 @parser_classes([JSONParser])
